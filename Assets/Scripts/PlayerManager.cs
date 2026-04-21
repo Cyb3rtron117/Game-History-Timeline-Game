@@ -20,6 +20,8 @@ public class PlayerManager : MonoBehaviour
     public float rayDist = 1f;
     public float rayOffset = 0.1f;
 
+    public static bool FreezePlayer = false;
+
     void Awake()
     {
         playerInputSys = new PlayerInputSystem(); //initialising the input system
@@ -51,8 +53,11 @@ public class PlayerManager : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 playerInput = playerInputSys.Player.Move.ReadValue<Vector2>(); //reads the player's input from the input system and turns it into a vector2
-        rb.linearVelocity = new Vector2(playerInput.x * moveSpeed, rb.linearVelocity.y);
 
+        if (!FreezePlayer)
+        {
+            rb.linearVelocity = new Vector2(playerInput.x * moveSpeed, rb.linearVelocity.y);
+        }
         if (playerInput.x != 0)
         {
             anim.SetBool("isWalking", true);

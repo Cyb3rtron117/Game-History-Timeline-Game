@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -12,10 +13,24 @@ public class EventBlock : MonoBehaviour
 
     public bool isOpen = false;
 
+    public CinemachineCamera cineCam;
+    public GameObject playerCamTarget;
+    public GameObject myInfo;
+
+    public Animator animator;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         tilemap.SetTile(tilemap.WorldToCell(transform.position), q_default);
+        playerCamTarget = GameObject.FindGameObjectWithTag("PlayerCamTarget");
+        cineCam = GameObject.FindFirstObjectByType<CinemachineCamera>();
+        animator = gameObject.GetComponent<Animator>();
+        if(myInfo == null )
+        {
+            myInfo = gameObject.transform.GetChild(0).gameObject;
+            myInfo.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -62,11 +77,25 @@ public class EventBlock : MonoBehaviour
     {
         yield return new WaitForSeconds(waitTime);
         tilemap.SetTile(tilemap.WorldToCell(transform.position), e_default);
+        myInfo.SetActive(true);
+        animator.SetTrigger("open");
+        cineCam.Follow = myInfo.transform;
+        PlayerManager.FreezePlayer = true;
+
     }
     IEnumerator Make_Question(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
         tilemap.SetTile(tilemap.WorldToCell(transform.position), q_default);
+
+        cineCam.Follow = playerCamTarget.transform;
+        PlayerManager.FreezePlayer = false;
+        animator.SetTrigger("close");
+    }
+
+    public void Hide()
+    {
+        myInfo.SetActive(false);
     }
 
 }

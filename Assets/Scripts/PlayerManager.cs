@@ -7,11 +7,15 @@ public class PlayerManager : MonoBehaviour
 
     public Rigidbody2D rb;
     public float moveSpeed = 1f;
+    [Header("Jumping")]
     public float jumpforce = 1f;
     public float lowjumpMultiplier = 2f;
     public float fallMultiplier = 3f;
     public bool isGrounded = true;
 
+    private float coyoteTime = 0.1f;
+    [SerializeField] private float coyoteTimeCounter = 0.1f;
+    public float rayDist = 1.2f; 
 
     void Awake()
     {
@@ -63,10 +67,22 @@ public class PlayerManager : MonoBehaviour
             walkingSound.Stop();*/
         }
 
-        if(playerInputSys.Player.Jump.WasPressedThisFrame() && isGrounded)
+        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, rayDist, LayerMask.GetMask("Ground"));
+        Debug.DrawRay(transform.position, Vector2.down * rayDist, Color.red);
+
+        if (isGrounded)
+        {
+            coyoteTimeCounter = coyoteTime;
+        }
+        else
+        {
+            coyoteTimeCounter -= Time.fixedDeltaTime;
+        }
+
+        if (playerInputSys.Player.Jump.WasPressedThisFrame() && coyoteTimeCounter > 0f)
         {
             rb.AddForce(Vector2.up * jumpforce, ForceMode2D.Impulse);
-            isGrounded = false;
+            coyoteTimeCounter = 0;
         }
 
         if(rb.linearVelocity.y < 0f) //falling

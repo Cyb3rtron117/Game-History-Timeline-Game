@@ -756,6 +756,8 @@ MonoBehaviour:
   lowjumpMultiplier: 3
   fallMultiplier: 4
   isGrounded: 1
+  coyoteTimeCounter: 0.1
+  rayDist: 1.2
 --- !u!1 &1858067108
 GameObject:
   m_ObjectHideFlags: 0
@@ -770,7 +772,7 @@ GameObject:
   - component: {fileID: 1858067112}
   - component: {fileID: 1858067111}
   - component: {fileID: 1858067110}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Midground
   m_TagString: Ground
   m_Icon: {fileID: 0}

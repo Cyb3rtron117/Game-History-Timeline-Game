@@ -1375,11 +1375,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerManager
   rb: {fileID: 1721908695}
+  anim: {fileID: 0}
   moveSpeed: 5
   jumpforce: 7
   lowjumpMultiplier: 3
   fallMultiplier: 4
   isGrounded: 1
+  isFalling: 0
   coyoteTimeCounter: 0.1
   rayDist: 0.3
   rayOffset: 0.9

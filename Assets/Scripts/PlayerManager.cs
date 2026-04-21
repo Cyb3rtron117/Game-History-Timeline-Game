@@ -15,7 +15,8 @@ public class PlayerManager : MonoBehaviour
 
     private float coyoteTime = 0.1f;
     [SerializeField] private float coyoteTimeCounter = 0.1f;
-    public float rayDist = 1.2f; 
+    public float rayDist = 1f;
+    public float rayOffset = 0.1f;
 
     void Awake()
     {
@@ -67,8 +68,9 @@ public class PlayerManager : MonoBehaviour
             walkingSound.Stop();*/
         }
 
-        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, rayDist, LayerMask.GetMask("Ground"));
-        Debug.DrawRay(transform.position, Vector2.down * rayDist, Color.red);
+        Vector3 rayPos = new Vector3(transform.position.x, transform.position.y - rayOffset, transform.position.z);
+        isGrounded = Physics2D.Raycast(rayPos, Vector2.down, rayDist, LayerMask.GetMask("Ground"));
+        Debug.DrawRay(rayPos, Vector2.down * rayDist, Color.red);
 
         if (isGrounded)
         {

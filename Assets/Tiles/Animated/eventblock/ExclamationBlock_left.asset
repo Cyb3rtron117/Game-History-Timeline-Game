@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: ExclamationBlock_left
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: 546688026, guid: 4c84d11de564dbb4399b4fe8f2d63000, type: 3}
+  - {fileID: -467848815, guid: 4c84d11de564dbb4399b4fe8f2d63000, type: 3}
+  - {fileID: 1355402255, guid: 4c84d11de564dbb4399b4fe8f2d63000, type: 3}
+  - {fileID: -2087878927, guid: 4c84d11de564dbb4399b4fe8f2d63000, type: 3}
+  - {fileID: 1174151640, guid: 4c84d11de564dbb4399b4fe8f2d63000, type: 3}
+  - {fileID: -386186977, guid: 4c84d11de564dbb4399b4fe8f2d63000, type: 3}
+  - {fileID: 906390571, guid: 4c84d11de564dbb4399b4fe8f2d63000, type: 3}
+  - {fileID: 1542420527, guid: 4c84d11de564dbb4399b4fe8f2d63000, type: 3}
+  - {fileID: -47316842, guid: 4c84d11de564dbb4399b4fe8f2d63000, type: 3}
+  - {fileID: 94023743, guid: 4c84d11de564dbb4399b4fe8f2d63000, type: 3}
+  - {fileID: 1995882080, guid: 4c84d11de564dbb4399b4fe8f2d63000, type: 3}
+  - {fileID: -584242205, guid: 4c84d11de564dbb4399b4fe8f2d63000, type: 3}
+  - {fileID: 1683280803, guid: 4c84d11de564dbb4399b4fe8f2d63000, type: 3}
+  - {fileID: 2014701783, guid: 4c84d11de564dbb4399b4fe8f2d63000, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0

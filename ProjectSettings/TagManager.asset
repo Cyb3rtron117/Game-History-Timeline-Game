@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - PlayerCamTarget
+  - Enemy
+  - FightController
   layers:
   - Default
   - TransparentFX

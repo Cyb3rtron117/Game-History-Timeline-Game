@@ -20,7 +20,12 @@ public class PlayerManager : MonoBehaviour
     public float rayDist = 1f;
     public float rayOffset = 0.1f;
 
+    
+    [Header("Fighting")]
+    public GameObject interactText;
+    public bool InCombat = false;
     public static bool FreezePlayer = false;
+    [SerializeField] private bool inRange = false;
 
     void Awake()
     {
@@ -47,6 +52,8 @@ public class PlayerManager : MonoBehaviour
         {
             anim = GetComponent<Animator>();
         }
+        interactText.SetActive(false);
+        InCombat = false;
     }
 
     // Update is called once per frame
@@ -96,7 +103,7 @@ public class PlayerManager : MonoBehaviour
             
         }
 
-        if (playerInputSys.Player.Jump.WasPressedThisFrame() && coyoteTimeCounter > 0f)
+        if (playerInputSys.Player.Jump.WasPressedThisFrame() && coyoteTimeCounter > 0f && !FreezePlayer)
         {
             rb.AddForce(Vector2.up * jumpforce, ForceMode2D.Impulse);
             coyoteTimeCounter = 0;
@@ -111,7 +118,7 @@ public class PlayerManager : MonoBehaviour
         {
             rb.linearVelocity += Vector2.up * Physics2D.gravity.y * (lowjumpMultiplier - 1) * Time.fixedDeltaTime;
         }
-        if(rb.linearVelocity.y > 0f)
+        if(rb.linearVelocity.y >= 0f)
         {
             isFalling = false;
         }
@@ -130,6 +137,37 @@ public class PlayerManager : MonoBehaviour
         if(collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;            
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("Enemy"))
+        {
+            interactText.SetActive(true);
+            inRange = true;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy") && !InCombat)
+        {
+            interactText.SetActive(false);
+            inRange = false;
+        }
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy") && !InCombat)
+        {
+            if (playerInputSys.Player.Interact.WasPressedThisFrame() && inRange)
+            {
+                print("pressing");
+                InCombat = true;
+                FreezePlayer = true;
+                collision.gameObject.GetComponent<Enemy>().Fight();
+                interactText.SetActive(false);
+            }
         }
     }
 }

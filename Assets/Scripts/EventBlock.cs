@@ -5,6 +5,7 @@ using UnityEngine.Tilemaps;
 
 public class EventBlock : MonoBehaviour
 {
+    [Header("Tiles")]
     public AnimatedTile q_default;
     public AnimatedTile q_to_e;
     public AnimatedTile e_to_q;
@@ -12,12 +13,15 @@ public class EventBlock : MonoBehaviour
     public Tilemap tilemap;
 
     public bool isOpen = false;
+    public Animator animator;
 
+    [Header("Cinemachine")]
     public CinemachineCamera cineCam;
     public GameObject playerCamTarget;
     public GameObject myInfo;
 
-    public Animator animator;
+    [SerializeField] private float camShakeTime = 0.5f;
+    [SerializeField] private float camShakeIntensity = 0.5f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -44,6 +48,7 @@ public class EventBlock : MonoBehaviour
         if(collision.gameObject.CompareTag("Player"))
         {
             ToggleBlock();
+            cineCam.GetComponent<CineCamShake>().ShakeCamera(camShakeIntensity, camShakeTime);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -80,7 +85,7 @@ public class EventBlock : MonoBehaviour
         myInfo.SetActive(true);
         animator.SetTrigger("open");
         cineCam.Follow = myInfo.transform;
-        PlayerManager.FreezePlayer = true;
+        //PlayerManager.FreezePlayer = true;
 
     }
     IEnumerator Make_Question(float waitTime)
@@ -89,7 +94,7 @@ public class EventBlock : MonoBehaviour
         tilemap.SetTile(tilemap.WorldToCell(transform.position), q_default);
 
         cineCam.Follow = playerCamTarget.transform;
-        PlayerManager.FreezePlayer = false;
+        //PlayerManager.FreezePlayer = false;
         animator.SetTrigger("close");
     }
 

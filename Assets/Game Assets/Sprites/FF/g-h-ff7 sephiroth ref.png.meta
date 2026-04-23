@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 2a980af6327f9a34aaa921ee8eb05b5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8940256996882635062
+    second: g-h-ff7 sephiroth ref_0
+  - first:
+      213: 1462463041178438985
+    second: g-h-ff7 sephiroth ref_1
+  - first:
+      213: 389690072602041682
+    second: g-h-ff7 sephiroth ref_2
+  - first:
+      213: 2687686667958407962
+    second: g-h-ff7 sephiroth ref_3
+  - first:
+      213: -2928117458075145726
+    second: g-h-ff7 sephiroth ref_4
+  - first:
+      213: -8612683406851093501
+    second: g-h-ff7 sephiroth ref_5
+  - first:
+      213: -413350302290230149
+    second: g-h-ff7 sephiroth ref_6
+  - first:
+      213: 1304691347223828188
+    second: g-h-ff7 sephiroth ref_7
+  - first:
+      213: -5171202732218883275
+    second: g-h-ff7 sephiroth ref_8
+  - first:
+      213: 3444019451725539206
+    second: g-h-ff7 sephiroth ref_9
+  - first:
+      213: -2441920267008267733
+    second: g-h-ff7 sephiroth ref_10
+  - first:
+      213: -6225336955972724857
+    second: g-h-ff7 sephiroth ref_11
+  - first:
+      213: 4723929338761255915
+    second: g-h-ff7 sephiroth ref_12
+  - first:
+      213: -2925121183785387788
+    second: g-h-ff7 sephiroth ref_13
+  - first:
+      213: 5295432016895453179
+    second: g-h-ff7 sephiroth ref_14
+  - first:
+      213: -6435326195217284879
+    second: g-h-ff7 sephiroth ref_15
+  - first:
+      213: -3284537808057773446
+    second: g-h-ff7 sephiroth ref_16
+  - first:
+      213: 8313049299478676171
+    second: g-h-ff7 sephiroth ref_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 203
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac62c1cf0a3dde380800000000000000
+      internalID: -8940256996882635062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 203
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d04923366bb4410800000000000000
+      internalID: 1462463041178438985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 203
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25dd0fd6e05786500800000000000000
+      internalID: 389690072602041682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_3
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 203
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13d637d8c49c4520800000000000000
+      internalID: 2687686667958407962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_4
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 203
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20aafca8fac3d57d0800000000000000
+      internalID: -2928117458075145726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_5
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 203
+        width: 74
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c4dbbc21a997880800000000000000
+      internalID: -8612683406851093501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 107
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74c030171c734af0800000000000000
+      internalID: -413350302290230149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 107
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd65dc42ed13b1210800000000000000
+      internalID: 1304691347223828188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_8
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 107
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533609463823c38b0800000000000000
+      internalID: -5171202732218883275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_9
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 107
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687e2a3b17d9bcf20800000000000000
+      internalID: 3444019451725539206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_10
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 107
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a252b747e8c1ed0800000000000000
+      internalID: -2441920267008267733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_11
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 107
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787522495092b99a0800000000000000
+      internalID: -6225336955972724857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 13
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb19e484b4ce8140800000000000000
+      internalID: 4723929338761255915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_13
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 34
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8708308c1e767d0800000000000000
+      internalID: -2925121183785387788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_14
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 34
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7a84bec572d7940800000000000000
+      internalID: 5295432016895453179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_15
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 34
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0ce48dbe021b6a0800000000000000
+      internalID: -6435326195217284879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_16
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 34
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72506b044afa62d0800000000000000
+      internalID: -3284537808057773446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-h-ff7 sephiroth ref_17
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 34
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc28cbf1b42ed5370800000000000000
+      internalID: 8313049299478676171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      g-h-ff7 sephiroth ref_0: -8940256996882635062
+      g-h-ff7 sephiroth ref_1: 1462463041178438985
+      g-h-ff7 sephiroth ref_10: -2441920267008267733
+      g-h-ff7 sephiroth ref_11: -6225336955972724857
+      g-h-ff7 sephiroth ref_12: 4723929338761255915
+      g-h-ff7 sephiroth ref_13: -2925121183785387788
+      g-h-ff7 sephiroth ref_14: 5295432016895453179
+      g-h-ff7 sephiroth ref_15: -6435326195217284879
+      g-h-ff7 sephiroth ref_16: -3284537808057773446
+      g-h-ff7 sephiroth ref_17: 8313049299478676171
+      g-h-ff7 sephiroth ref_2: 389690072602041682
+      g-h-ff7 sephiroth ref_3: 2687686667958407962
+      g-h-ff7 sephiroth ref_4: -2928117458075145726
+      g-h-ff7 sephiroth ref_5: -8612683406851093501
+      g-h-ff7 sephiroth ref_6: -413350302290230149
+      g-h-ff7 sephiroth ref_7: 1304691347223828188
+      g-h-ff7 sephiroth ref_8: -5171202732218883275
+      g-h-ff7 sephiroth ref_9: 3444019451725539206
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

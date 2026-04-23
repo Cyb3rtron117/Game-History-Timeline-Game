@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 591c36fb57e9eb341be5d15e323b490a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3432836930178734934
+    second: Pistol Demo_0
+  - first:
+      213: 3301095007050167335
+    second: Pistol Demo_1
+  - first:
+      213: -8859199652605783664
+    second: Pistol Demo_2
+  - first:
+      213: -5053257913780298990
+    second: Pistol Demo_3
+  - first:
+      213: -3558303891700211486
+    second: Pistol Demo_4
+  - first:
+      213: -8726755488140154619
+    second: Pistol Demo_5
+  - first:
+      213: -7981555430823884178
+    second: Pistol Demo_6
+  - first:
+      213: 1640723630425037496
+    second: Pistol Demo_7
+  - first:
+      213: -770260494183420096
+    second: Pistol Demo_8
+  - first:
+      213: 7811858547455006313
+    second: Pistol Demo_9
+  - first:
+      213: 1992331771022314048
+    second: Pistol Demo_10
+  - first:
+      213: 6998464813061606653
+    second: Pistol Demo_11
+  - first:
+      213: 1471465142746125394
+    second: Pistol Demo_12
+  - first:
+      213: 4434280382324746116
+    second: Pistol Demo_13
+  - first:
+      213: -8916195275196506542
+    second: Pistol Demo_14
+  - first:
+      213: -1385168423651435709
+    second: Pistol Demo_15
+  - first:
+      213: 54197138384554081
+    second: Pistol Demo_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pistol Demo_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 49
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b55230003e3af20800000000000000
+      internalID: 3432836930178734934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol Demo_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 49
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7247a014b68dfcd20800000000000000
+      internalID: 3301095007050167335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol Demo_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 49
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0911b20aadccd0580800000000000000
+      internalID: -8859199652605783664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol Demo_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 49
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b91b263b83fd9b0800000000000000
+      internalID: -5053257913780298990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol Demo_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 49
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0a154967d5e9ec0800000000000000
+      internalID: -3558303891700211486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol Demo_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 49
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50927bfae1654e680800000000000000
+      internalID: -8726755488140154619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol Demo_6
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 49
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a07aeaf91db3190800000000000000
+      internalID: -7981555430823884178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol Demo_7
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 49
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bad21ee27505c610800000000000000
+      internalID: 1640723630425037496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol Demo_8
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 49
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f2eab592c7f45f0800000000000000
+      internalID: -770260494183420096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol Demo_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96697acb5fb496c60800000000000000
+      internalID: 7811858547455006313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol Demo_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a828e903f26ab10800000000000000
+      internalID: 1992331771022314048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol Demo_11
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 3
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc8b930baa8f1160800000000000000
+      internalID: 6998464813061606653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol Demo_12
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 15
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25490cc40c1bb6410800000000000000
+      internalID: 1471465142746125394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol Demo_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48723fe838ab98d30800000000000000
+      internalID: 4434280382324746116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol Demo_14
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 12
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e55e123af434480800000000000000
+      internalID: -8916195275196506542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol Demo_15
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b1b2a58a4e6cce0800000000000000
+      internalID: -1385168423651435709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol Demo_16
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 10
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168014d920c80c000800000000000000
+      internalID: 54197138384554081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pistol Demo_0: 3432836930178734934
+      Pistol Demo_1: 3301095007050167335
+      Pistol Demo_10: 1992331771022314048
+      Pistol Demo_11: 6998464813061606653
+      Pistol Demo_12: 1471465142746125394
+      Pistol Demo_13: 4434280382324746116
+      Pistol Demo_14: -8916195275196506542
+      Pistol Demo_15: -1385168423651435709
+      Pistol Demo_16: 54197138384554081
+      Pistol Demo_2: -8859199652605783664
+      Pistol Demo_3: -5053257913780298990
+      Pistol Demo_4: -3558303891700211486
+      Pistol Demo_5: -8726755488140154619
+      Pistol Demo_6: -7981555430823884178
+      Pistol Demo_7: 1640723630425037496
+      Pistol Demo_8: -770260494183420096
+      Pistol Demo_9: 7811858547455006313
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -25,7 +25,7 @@ public class PlayerManager : MonoBehaviour
     public GameObject interactText;
     public bool InCombat = false;
     public static bool FreezePlayer = false;
-    [SerializeField] private bool inRange = false;
+    public bool inRange = false;
 
     void Awake()
     {

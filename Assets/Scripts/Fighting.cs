@@ -73,6 +73,7 @@ public class Fighting : MonoBehaviour
     public void Win()
     {
         Player.GetComponent<PlayerManager>().InCombat = false;
+        Player.GetComponent<PlayerManager>().inRange = false;
         PlayerManager.FreezePlayer = false;
         CurrentEnemy.GetComponent<Enemy>().Die();
 

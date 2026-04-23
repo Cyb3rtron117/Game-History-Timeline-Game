@@ -13,6 +13,11 @@ public class Enemy : MonoBehaviour
     public Vector2 SpriteSize = new Vector2(100, 100);
     public Vector2 ShadowSize = new Vector2(100, 40);
     public Vector2 ShadowPosition = Vector2.zero;
+    [Header("Text")]
+    [TextArea(2, 10)]
+    public string GameText = " ";
+
+    public bool test = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,12 +28,12 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void Fight()
     {
-        fightingScript.UpdateEnemy(FightSprite, FightTitle, gameObject, SpritePosition, SpriteSize, ShadowSize, ShadowPosition);
+        fightingScript.UpdateEnemy(FightSprite, FightTitle, gameObject, SpritePosition, SpriteSize, ShadowSize, ShadowPosition, GameText);
     }
 
     public void Die()

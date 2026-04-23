@@ -103,27 +103,39 @@ public class PlayerManager : MonoBehaviour
             
         }
 
-        if (playerInputSys.Player.Jump.WasPressedThisFrame() && coyoteTimeCounter > 0f && !FreezePlayer)
+        if (!FreezePlayer)
         {
-            rb.AddForce(Vector2.up * jumpforce, ForceMode2D.Impulse);
-            coyoteTimeCounter = 0;
-        }
+            if (playerInputSys.Player.Jump.WasPressedThisFrame() && coyoteTimeCounter > 0f)
+            {
+                rb.AddForce(Vector2.up * jumpforce, ForceMode2D.Impulse);
+                coyoteTimeCounter = 0;
+            }
 
-        if(rb.linearVelocity.y < 0f) //falling
-        {
-            rb.linearVelocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.fixedDeltaTime;
-            isFalling = true;
-        }
-        else if(rb.linearVelocity.y > 0f && !playerInputSys.Player.Jump.IsPressed()) //low jump
-        {
-            rb.linearVelocity += Vector2.up * Physics2D.gravity.y * (lowjumpMultiplier - 1) * Time.fixedDeltaTime;
-        }
-        if(rb.linearVelocity.y >= 0f)
-        {
-            isFalling = false;
+            if (rb.linearVelocity.y < 0f) //falling
+            {
+                rb.linearVelocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.fixedDeltaTime;
+                isFalling = true;
+            }
+            else if (rb.linearVelocity.y > 0f && !playerInputSys.Player.Jump.IsPressed()) //low jump
+            {
+                rb.linearVelocity += Vector2.up * Physics2D.gravity.y * (lowjumpMultiplier - 1) * Time.fixedDeltaTime;
+            }
+            if (rb.linearVelocity.y >= 0f)
+            {
+                isFalling = false;
+            }
         }
 
         UpdateAnims();
+
+        if(FreezePlayer)
+        {
+            rb.bodyType = RigidbodyType2D.Static;
+        }
+        else
+        {
+            rb.bodyType = RigidbodyType2D.Dynamic;
+        }
     }
 
     void UpdateAnims()

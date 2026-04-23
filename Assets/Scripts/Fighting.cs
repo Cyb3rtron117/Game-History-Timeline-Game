@@ -19,11 +19,13 @@ public class Fighting : MonoBehaviour
 
     public GameObject Player;
     private Animator anim;
-    
+
+    private Loot lootScript;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        lootScript = GetComponent<Loot>();
         EnemyTitleObject.text = "Enemy";
         EnemyImageObject.GetComponent<Image>().sprite = null;
 
@@ -38,10 +40,10 @@ public class Fighting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void UpdateEnemy(Sprite enemyImage, string enemyTitle, GameObject enemy, Vector2 enemPos, Vector2 enemSize, Vector2 shadowSize, Vector2 shadowPos)
+    public void UpdateEnemy(Sprite enemyImage, string enemyTitle, GameObject enemy, Vector2 enemPos, Vector2 enemSize, Vector2 shadowSize, Vector2 shadowPos, string LootText)
     {
         EnemyTitleObject.text = enemyTitle;
 
@@ -58,6 +60,9 @@ public class Fighting : MonoBehaviour
         EnemyDialogue1.text = $"{enemyTitle} attacks with Basic";
         EnemyDialogue2.text = $"{enemyTitle} attacks with Advanced";
         StartFight();
+
+
+        lootScript.text = LootText;
     }
 
     void StartFight()

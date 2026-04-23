@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0656cc9450913b43b8daa6d3a561332, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 519dc246110a622468276a4495947730, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9038,7 +9038,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -12.2}
+  m_AnchoredPosition: {x: 0, y: -20.3}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &239747200
@@ -9050,16 +9050,53 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: GameText
+      value: "<b>1987 - Final Fantasy (Square, 1987).</b>\n\n-RPG\n-Player controls
+        party of four \u201CLight Warriors\u201D\n-6 classes\n-Save the world by
+        beating dark forces. \n\n-Player\u2019s characters displayed on the left,
+        with enemies displayed on the right while in combat. \n-First of its kind
+        to use this display. (Bregalad, 2017). \n\nThe development team also drew
+        inspiration from <b>Wizardry </b>(Sir-Tech, 1981) (Parish, 2017)."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: FightTitle
       value: Sephiroth
       objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: FightSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dee199c18c63a7b41b8c495725e761b4, type: 3}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowSize.x
+      value: 71.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowSize.y
+      value: 19.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: SpriteSize.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowPosition.y
+      value: -42.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: SpritePosition.y
+      value: -20.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422731681082889775, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dee199c18c63a7b41b8c495725e761b4, type: 3}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.5
+      value: -4.5
       objectReference: {fileID: 0}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.25
       objectReference: {fileID: 0}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10951,8 +10988,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.6, y: -55.2}
-  m_SizeDelta: {x: 132.4, y: 23.4}
+  m_AnchoredPosition: {x: 2.2, y: -61.5}
+  m_SizeDelta: {x: 80.9, y: 19.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &674441748
 MonoBehaviour:
@@ -11323,7 +11360,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 689403508}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -12232,8 +12269,43 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: GameText
+      value: "<b>1991 - Sid Meier\u2019s Civilisation.</b> (Microprose, 1991)\n\n-Turn-based
+        strategy game \n-Player controls historical civilisation\n\nWin in 3 ways:\n-First
+        to build a spaceship and complete a journey\n-Conquering the whole map\n-Most
+        amount of points by the year 2100. (Sid Meier\u2019s Civilisation | Official
+        Civilisation Site, n.d.)\n\nCore feature is the <b>4X gameplay loop: Explore,
+        Expand, Exploit, Exterminate. </b>\n\n-Popularised the 4X genre, setting
+        a <b>golden standard</b> for any games to come after it. (Singh, 2025)\n-Also
+        created the addictive \u201COne more turn\u201D mechanic (Idcgames, 2024)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: FightTitle
-      value: Sid Meier I
+      value: Sid Meier
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: FightSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4d947c603f08aca4e94542e700e353fa, type: 3}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowSize.x
+      value: 187
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowSize.y
+      value: 19.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: SpriteSize.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowPosition.y
+      value: -65.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: SpritePosition.y
+      value: -38.2
       objectReference: {fileID: 0}
     - target: {fileID: 4422731681082889775, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_Sprite
@@ -12241,11 +12313,11 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 34a41b4ce62719c4cb7f30621acd5307, type: 3}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.791549
+      value: 8.291549
       objectReference: {fileID: 0}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.3932774
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13961,7 +14033,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.65625
+  orthographic size: 6.375
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -14421,17 +14493,62 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 982171303077761414, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: GameText
+      value: "<b>1989 - Game Boy (Nintendo, 1989)</b>\n\n-Lacked full-colour display,
+        but lower prices. Allowed to be more widespread.\n\n-<b>4th best-selling
+        console of all time</b>. (Nintendo, 2026).\n\n-Also released <b>Game Link
+        Cable</b> \u2013 or the Video Link \u2013  allows multiplayer and data transfer
+        between Game Boys (Nintendo, n.d.). \n-Crucial to the later released <b>Pok\xE9mon
+        Red, Blue, and Yellow. </b>(Nintendo, 1996)"
+      objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: FightTitle
-      value: The Gameboy
+      value: The Game Boy
       objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: FightSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 519dc246110a622468276a4495947730, type: 3}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowSize.x
+      value: 80.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowSize.y
+      value: 19.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: SpriteSize.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowPosition.x
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowPosition.y
+      value: -61.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: SpritePosition.y
+      value: -20.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422731681082889775, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 69b1e24524eb9a04db20569f1dbc732b, type: 3}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.911028
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.51992273
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14677,13 +14794,66 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 982171303077761414, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: GameText
+      value: "<b>1996 - Pok\xE9mon Red and Pok\xE9mon Blue.</b> (Game Freak, 1996).\n\n-Navigate
+        the world of Kanto to master Pok\xE9mon Battling. \n-Defeat 8 Gym Leaders
+        and the 4 best Leaders using creatures called Pok\xE9mon \n-Capture and collect
+        all 151 Pok\xE9mon in the game and complete the Pokedex. \n\n-Battles are
+        turn-based, and different Pok\xE9mon have different abilities (Pokemon Red
+        - Game Boy Review at IGN, n.d.)\n\n-To collect all the Pok\xE9mon, players
+        need to connect to other <b>Game Boys</b> using the <b>Game Link Cable</b>
+        and use game\u2019s multiplayer trading between the two games. \n\n-Popularised
+        turn-based genre by introducing younger audiences\n-And for their creature
+        collecting and trading"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: FightTitle
+      value: The Pokeball
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: FightSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9e6f1cf3314e5dc44a9208809ae48095, type: 3}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowSize.x
+      value: 71.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowSize.y
+      value: 19.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: SpriteSize.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowPosition.x
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowPosition.y
+      value: -59.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: SpritePosition.y
+      value: 23.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422731681082889775, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9e6f1cf3314e5dc44a9208809ae48095, type: 3}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.599687
+      value: 13.6
       objectReference: {fileID: 0}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2391546
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14719,7 +14889,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7628917040015614952, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_Name
-      value: Pokemon
+      value: Pokeball
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19171,7 +19341,7 @@ Tilemap:
       - {fileID: -783938063, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1294105469, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1592540365, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -54, y: -23, z: 0}
@@ -19186,7 +19356,7 @@ Tilemap:
       - {fileID: -783938063, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1294105469, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1592540365, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -53, y: -23, z: 0}
@@ -19261,7 +19431,7 @@ Tilemap:
       - {fileID: -783938063, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1294105469, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1592540365, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -48, y: -23, z: 0}
@@ -19366,7 +19536,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -57, y: -4, z: 0}
@@ -19546,7 +19716,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -45, y: -4, z: 0}
@@ -19756,7 +19926,7 @@ Tilemap:
       - {fileID: 6147192446458071013, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -3461395152114158010, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1473393217, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -2, y: -4, z: 0}

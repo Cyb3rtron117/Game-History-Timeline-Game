@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class SceneTracker : MonoBehaviour
 {
+    public static SceneTracker Instance;
+
     public static bool WinterComplete = false;
     public static bool SpringComplete = false;
     public static bool SummerComplete = false;
@@ -12,8 +14,15 @@ public class SceneTracker : MonoBehaviour
     void Awake()
     {
         // Prevents this GameObject from being destroyed when a new scene loads
-        DontDestroyOnLoad(gameObject);
-        travelDirection = TravelDirection.Right;
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -34,15 +43,19 @@ public class SceneTracker : MonoBehaviour
         {
             case currentLevel.Winter:
                 WinterComplete = true;
+                print(WinterComplete);
                 break;
             case currentLevel.Spring:
                 SpringComplete = true;
+                print(SpringComplete);
                 break;
             case currentLevel.Summer:
                 SummerComplete = true;
+                print(SummerComplete);
                 break;
             case currentLevel.Autumn:
                 AutumnComplete = true;
+                print(AutumnComplete);
                 break;
 
         }

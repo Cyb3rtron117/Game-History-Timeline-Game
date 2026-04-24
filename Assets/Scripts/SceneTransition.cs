@@ -37,7 +37,7 @@ public class SceneTransition : MonoBehaviour
 
     IEnumerator LoadNextLevel(int LevelIndex)
     {
-        //transitionAnim.SetTrigger("Start");
+        transitionAnim.SetTrigger("Start");
 
         yield return new WaitForSeconds(transitionTime);
 

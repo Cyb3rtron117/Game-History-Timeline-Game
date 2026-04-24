@@ -27,9 +27,14 @@ public class SceneComplete : MonoBehaviour
                     if (SceneTracker.travelDirection == TravelDirection.Left)
                     {
                         Player.transform.position = winterAltPos;
+                        print("went back");
                     }
-                }                
-                break;
+                }
+                else
+                {
+                    SceneTracker.travelDirection = TravelDirection.Right;
+                }
+                    break;
             case currentLevel.Spring:
                 if (SceneTracker.SpringComplete)
                 {
@@ -37,6 +42,7 @@ public class SceneComplete : MonoBehaviour
                     if (SceneTracker.travelDirection == TravelDirection.Left)
                     {
                         Player.transform.position = springAltPos;
+                        print("went back");
                     }
                 }
                 break;
@@ -47,6 +53,7 @@ public class SceneComplete : MonoBehaviour
                     if (SceneTracker.travelDirection == TravelDirection.Left)
                     {
                         Player.transform.position = summerAltPos;
+                        print("went back");
                     }
                 }
                 break;
@@ -57,6 +64,7 @@ public class SceneComplete : MonoBehaviour
                     if (SceneTracker.travelDirection == TravelDirection.Left)
                     {
                         Player.transform.position = autumnAltPos;
+                        print("went back");
                     }
                 }
                 break;

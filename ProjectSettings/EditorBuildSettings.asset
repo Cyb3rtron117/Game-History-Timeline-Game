@@ -8,9 +8,24 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Demo Level.unity
     guid: 716d4ef1187c5ed459d3b74242cda283
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 4c71681220b65fc4dbdbd91deaf74661
+  - enabled: 1
+    path: Assets/Scenes/Underground.unity
+    guid: 2c9312441afc88547ae3a14cf7b817b1
+  - enabled: 1
+    path: Assets/Scenes/Spring.unity
+    guid: 099436b403c7aa54d8a6040f0053148a
+  - enabled: 1
+    path: Assets/Scenes/Summer.unity
+    guid: 875a082c02ad976419bf55317fa102ed
+  - enabled: 1
+    path: Assets/Scenes/Autumn.unity
+    guid: 5e8f222d3cfe96c41ae82722375cb931
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: e01b872b9224f1a4dbfe40541e282f8e, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

@@ -8,6 +8,8 @@ TagManager:
   - PlayerCamTarget
   - Enemy
   - FightController
+  - GameManager
+  - SceneTracker
   layers:
   - Default
   - TransparentFX

@@ -54,6 +54,7 @@ public class PlayerManager : MonoBehaviour
         }
         interactText.SetActive(false);
         InCombat = false;
+
     }
 
     // Update is called once per frame

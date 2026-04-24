@@ -22002,87 +22002,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1001 &514969274
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: test
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: GameText
-      value: "<b>Wizardry: Proving Grounds of the Mad Overlord (1981). </b>\n\nParty
-        of up to 6 characters. \n-5 different races\n-3 alignments\n-4 basic classes\n-4
-        advanced classes \n\u2013 inspired by <b>Dungeons and Dragons 1st Edition.</b>
-        (Roddison, 2024). \n\nExplore, find treasure, level up by killing monsters,
-        and then fight the last boss at the bottom of the level to get a powerful
-        amulet.\n\nParty system and spell-slot system inspired the team behind <b>Final
-        Fantasy</b> (Square, 1987) (Parish, 2017)\n\nThe random enemy encounters
-        also later contributed to the creation of <b>Dragon Quest</b> (Enix, Spike
-        Chunsoft, 1986). (Kalata, 2008).\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: testtext
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -45.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 7.38
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7628917040015614952, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_Name
-      value: Enemy (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7628917040015614952, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
 --- !u!1 &562608029
 GameObject:
   m_ObjectHideFlags: 0
@@ -27120,7 +27039,7 @@ Tilemap:
       - {fileID: 1433878784, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -626666940, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1753349681, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -76, y: -4, z: 0}
@@ -27150,7 +27069,7 @@ Tilemap:
       - {fileID: 1433878784, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -626666940, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1753349681, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -74, y: -4, z: 0}
@@ -27405,7 +27324,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -57, y: -4, z: 0}
@@ -27480,7 +27399,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -52, y: -4, z: 0}
@@ -27555,7 +27474,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -47, y: -4, z: 0}
@@ -27615,7 +27534,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -43, y: -4, z: 0}
@@ -27660,7 +27579,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -40, y: -4, z: 0}
@@ -27675,7 +27594,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -39, y: -4, z: 0}
@@ -27705,7 +27624,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -37, y: -4, z: 0}
@@ -27840,7 +27759,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -28, y: -4, z: 0}
@@ -27960,7 +27879,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: -4, z: 0}
@@ -28005,7 +27924,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -17, y: -4, z: 0}
@@ -28065,7 +27984,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -13, y: -4, z: 0}
@@ -28185,7 +28104,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -5, y: -4, z: 0}
@@ -28290,7 +28209,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 2, y: -4, z: 0}
@@ -28440,7 +28359,7 @@ Tilemap:
       - {fileID: 6147192446458071013, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -3461395152114158010, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1473393217, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 12, y: -4, z: 0}
@@ -28470,7 +28389,7 @@ Tilemap:
       - {fileID: 6147192446458071013, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -3461395152114158010, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1473393217, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 14, y: -4, z: 0}
@@ -28545,7 +28464,7 @@ Tilemap:
       - {fileID: 6147192446458071013, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -3461395152114158010, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1473393217, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 19, y: -4, z: 0}
@@ -28575,7 +28494,7 @@ Tilemap:
       - {fileID: 6147192446458071013, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -3461395152114158010, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1473393217, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -34920,87 +34839,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1001 &1167452517
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: test
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: GameText
-      value: "<b>Wizardry: Proving Grounds of the Mad Overlord (1981). </b>\n\nParty
-        of up to 6 characters. \n-5 different races\n-3 alignments\n-4 basic classes\n-4
-        advanced classes \n\u2013 inspired by <b>Dungeons and Dragons 1st Edition.</b>
-        (Roddison, 2024). \n\nExplore, find treasure, level up by killing monsters,
-        and then fight the last boss at the bottom of the level to get a powerful
-        amulet.\n\nParty system and spell-slot system inspired the team behind <b>Final
-        Fantasy</b> (Square, 1987) (Parish, 2017)\n\nThe random enemy encounters
-        also later contributed to the creation of <b>Dragon Quest</b> (Enix, Spike
-        Chunsoft, 1986). (Kalata, 2008).\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: testtext
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -45.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 7.38
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7628917040015614952, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_Name
-      value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 7628917040015614952, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
 --- !u!1001 &1190634863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35948,7 +35786,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.75
+  orthographic size: 7.9375
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -39652,12 +39490,10 @@ SceneRoots:
   - {fileID: 599535596}
   - {fileID: 737528457}
   - {fileID: 636096517}
-  - {fileID: 514969274}
   - {fileID: 1867309482}
   - {fileID: 2070851566}
   - {fileID: 1326353860}
   - {fileID: 632985303}
   - {fileID: 1879869278}
   - {fileID: 2057953204}
-  - {fileID: 1167452517}
   - {fileID: 1459641460}

@@ -1280,7 +1280,7 @@ Tilemap:
       - {fileID: 1433878784, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -626666940, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1753349681, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -34, y: -4, z: 0}
@@ -1295,7 +1295,7 @@ Tilemap:
       - {fileID: 1433878784, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -626666940, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1753349681, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -33, y: -4, z: 0}
@@ -1415,7 +1415,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -25, y: -4, z: 0}
@@ -2950,6 +2950,7 @@ GameObject:
   - component: {fileID: 377824349}
   - component: {fileID: 377824348}
   - component: {fileID: 377824347}
+  - component: {fileID: 377824352}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3131,6 +3132,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &377824352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377824345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d8efb60364ad9946a9dfad1531814f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FPSLimiter
+  targetFPS: 60
 --- !u!1 &383976916
 GameObject:
   m_ObjectHideFlags: 0

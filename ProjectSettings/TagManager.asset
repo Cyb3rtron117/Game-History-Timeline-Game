@@ -10,6 +10,7 @@ TagManager:
   - FightController
   - GameManager
   - SceneTracker
+  - SoundManager
   layers:
   - Default
   - TransparentFX

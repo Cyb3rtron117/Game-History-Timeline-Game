@@ -1,3 +1,7 @@
+CREDITS	
+
+SPRITES AND TILES
+
 Kevin's Mom's House. (Dec 16, 2020). fourSeasonsPlatformer_ [tileset]. Itch.io. https://kevins-moms-house.itch.io/four-seasons-platformer-tileset
 
 Arkno. (Jan 12, 2026). Aster's Character Sprite 2D. Itch.io. https://project-arkno.itch.io/asters-character-sprite-2d
@@ -53,3 +57,15 @@ Tank Pack. (2026). Itch.io. https://andelrodis.itch.io/tank-pack
 Spaceship sprites. (2026). Itch.io. https://lowich.itch.io/free-pixel-art-spaceship-sprites 
 
 Cowboy (Animated Pixel Art). (2025). Itch.io. https://samuellee.itch.io/cow-boy-animated-pixel-art
+
+
+SOUNDS
+
+
+14GPanskaHonc_Petr (24 February, 2018). 14-Man fast walking dirt.wav. Freesound. https://freesound.org/people/14GPanskaHonc_Petr/sounds/419181/
+
+Christopherderp (6 April, 2016). Hurt 1 - (Male). Freesound. https://freesound.org/people/Christopherderp/sounds/342229/
+
+Nightflame (20 March, 2018). Swinging staff whoosh (strong) 02.wav. Freesound. https://freesound.org/people/Nightflame/sounds/422504/
+
+Vilkas_Sound (27 October, 2023). VS Button Click 03.mp3. Freesound. https://freesound.org/people/Vilkas_Sound/sounds/707040/

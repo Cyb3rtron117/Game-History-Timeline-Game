@@ -14,15 +14,16 @@ public class SoundManager : MonoBehaviour
 
     [Header("Music")]
     public AudioSource FightMusic;
-    public AudioSource BackgroundMusic;
+    
     public AudioSource VectoryMusic;
-   
+
+    public BackgroundMusic _BackgroundMusic;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        BackgroundMusic.volume = 0.1f;
-        BackgroundMusic.Play();
+        _BackgroundMusic = GameObject.FindGameObjectWithTag("SceneTracker").GetComponent<BackgroundMusic>();
     }
 
     // Update is called once per frame
@@ -65,15 +66,20 @@ public class SoundManager : MonoBehaviour
     }
     public void playFightMusic()
     {
-        BackgroundMusic.Pause();
+        if (_BackgroundMusic != null)
+        {
+            _BackgroundMusic.PauseMusic();
+        }
         FightMusic.volume = 0.1f;
         FightMusic.Play();
     }
     public void stopFightMusic()
     {
         FightMusic.Stop();
-        BackgroundMusic.volume = 0.1f;
-        BackgroundMusic.UnPause();
+        if (_BackgroundMusic != null)
+        {
+            _BackgroundMusic.UnPause();
+        }
     }
     public void playVictory()
     {

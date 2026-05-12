@@ -8,6 +8,7 @@ public class PlayerManager : MonoBehaviour
     public Rigidbody2D rb;
     public Animator anim;
     public float moveSpeed = 1f;
+    public SoundManager soundManager;
     [Header("Jumping")]
     public float jumpforce = 1f;
     public float lowjumpMultiplier = 2f;
@@ -55,7 +56,6 @@ public class PlayerManager : MonoBehaviour
         interactText.SetActive(false);
         InCombat = false;
         FreezePlayer = false;
-
     }
 
     // Update is called once per frame
@@ -67,6 +67,7 @@ public class PlayerManager : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(playerInput.x * moveSpeed, rb.linearVelocity.y);
         }
+
         if (playerInput.x != 0)
         {
             anim.SetBool("isWalking", true);
@@ -78,17 +79,20 @@ public class PlayerManager : MonoBehaviour
             {
                 transform.rotation = Quaternion.Euler(0f, 0f, 0f);
             }
-            /*
-            if (!walkingSound.isPlaying)
+
+            if (!soundManager.playerWalk.isPlaying && !FreezePlayer)
             {
-                walkingSound.Play();
-            }*/
+                soundManager.playPlayerwalk();
+            }
 
         }
         else
         {
             anim.SetBool("isWalking", false);
-            //walkingSound.Stop();
+            if (soundManager.playerWalk.isPlaying)
+            {
+                soundManager.stopPlayerWalk();
+            }
         }
 
         Vector3 rayPos = new Vector3(transform.position.x, transform.position.y - rayOffset, transform.position.z);

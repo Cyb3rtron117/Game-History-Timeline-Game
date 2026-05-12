@@ -80,9 +80,19 @@ public class PlayerManager : MonoBehaviour
                 transform.rotation = Quaternion.Euler(0f, 0f, 0f);
             }
 
-            if (!soundManager.playerWalk.isPlaying && !FreezePlayer)
+            if (!FreezePlayer && isGrounded)
             {
-                soundManager.playPlayerwalk();
+                if (!soundManager.playerWalk.isPlaying)
+                {
+                    soundManager.playPlayerwalk();
+                }
+            }
+            else
+            {
+                if (soundManager.playerWalk.isPlaying)
+                {
+                    soundManager.stopPlayerWalk();
+                }
             }
 
         }

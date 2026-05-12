@@ -36,7 +36,7 @@ public class SoundManager : MonoBehaviour
     public void playPlayerwalk()
     {
         playerWalk.Play();
-        playerWalk.volume = 0.326f;
+        playerWalk.volume = 0.1f;
     }
     public void stopPlayerWalk()
     {

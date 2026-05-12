@@ -602,7 +602,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.8, y: -53.8}
+  m_AnchoredPosition: {x: 0, y: -58.3}
   m_SizeDelta: {x: 84.19, y: 13.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &102694694
@@ -689,8 +689,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: GameText
-      value: "DND(1974) \nA tabletop role-playing gamw that changed the view of turn-based
-        strategy away from being exclusive to war games."
+      value: "<b>Dungeons and Dragons </b>(1974) \n\nA tabletop role-playing gamw
+        that changed the view of turn-based strategy away from being exclusive to
+        war games."
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: FightTitle
@@ -7240,7 +7241,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 982171303077761414, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_SpriteTilingProperty.border.z
-      value: 1.25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 982171303077761414, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -7248,7 +7249,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: GameText
-      value: "Stratego (1966 Edition) \r\n\r\nTwo player strategy game featuring
+      value: "<b>Stratego </b>(1966 Edition) \r\n\r\nTwo player strategy game featuring
         40 red or blue pieces per side, players aim to locate and capture the opponent's
         flag. "
       objectReference: {fileID: 0}
@@ -7711,7 +7712,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -23.1}
+  m_AnchoredPosition: {x: 0, y: -12.7}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &455037393
@@ -7974,17 +7975,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 982171303077761414, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 982171303077761414, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: GameText
-      value: "Starship Troopers (1976) \r\n\r\nThis is a Sci-Fi strategy war game,
-        served as a change from the usual war game layout of most war games that
-        were released prior. "
+      value: "<b>Starship Troopers</b> (1976) \r\n\r\nThis is a Sci-Fi strategy war
+        game, served as a change from the usual war game layout of most war games
+        that were released prior. "
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: FightTitle
@@ -8640,9 +8641,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: GameText
-      value: "Tank Battle (1975) \r\n\r\nStrategy game similar to Stratego where
-        players move tanks and anti-tank guns across a grid, aiming to destroy the
-        opponent's headquarters and deplete their resources. "
+      value: "<b>Tank Battle</b> (1975) \r\n\r\nStrategy game similar to <b>Stratego</b>
+        where players move tanks and anti-tank guns across a grid, aiming to destroy
+        the opponent's headquarters and deplete their resources. "
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: FightTitle
@@ -9346,18 +9347,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1137566515}
-  - {fileID: 131283914}
   - {fileID: 933305513}
-  - {fileID: 1597797059}
-  - {fileID: 518199268}
+  - {fileID: 1470432344}
   - {fileID: 1516061671}
   - {fileID: 1739716766}
-  - {fileID: 924766214}
-  - {fileID: 1259466108}
-  - {fileID: 681754220}
-  - {fileID: 1693880635}
   - {fileID: 336404444}
+  - {fileID: 1137566515}
+  - {fileID: 924766214}
+  - {fileID: 131283914}
+  - {fileID: 681754220}
+  - {fileID: 518199268}
+  - {fileID: 1597797059}
+  - {fileID: 1693880635}
   - {fileID: 1734379027}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10516,8 +10517,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: GameText
-      value: "Empire(1970) \r\n\r\nLike monopoly, players take turns trying to build
-        up their empire using factories, workers and goods. "
+      value: "<b>Empire</b>(1970) \r\n\r\nLike <b>Monopoly</b>, players take turns
+        trying to build up their empire using factories, workers and goods. "
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: FightTitle
@@ -10663,18 +10664,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 982171303077761414, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 982171303077761414, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: GameText
-      value: "Diplomacy (1960): \r\n\r\n This game had a focus on the political side
-        of war, building on mechanics of negotiations and strategic army placements.
-        One of the most popular boardgames of the time because of its strategic gameplay
-        simulating real politics and political strategy. "
+      value: "<b>Diplomacy </b>(1960): \r\n\r\n This game had a focus on the political
+        side of war, building on mechanics of negotiations and strategic army placements.
+        One of the <b>most popular boardgames</b> of the time because of its strategic
+        gameplay simulating real politics and political strategy. "
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: FightTitle
@@ -10686,31 +10687,31 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 9e5a039cba99afd48b5c38fe1eae36f3, type: 3}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: ShadowSize.x
-      value: 82.9
+      value: 84.19
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: ShadowSize.y
-      value: 14
+      value: 13.8
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: SpriteSize.x
-      value: 150
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: SpriteSize.y
-      value: 300
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: ShadowPosition.x
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: ShadowPosition.y
-      value: -55.8
+      value: -58.3
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: SpritePosition.y
-      value: -30.3
+      value: -12.7
       objectReference: {fileID: 0}
     - target: {fileID: 4422731681082889775, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_Size.x
@@ -10730,15 +10731,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.34
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.34
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.34
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10746,7 +10747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7
+      value: 0.99
       objectReference: {fileID: 0}
     - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11430,8 +11431,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: GameText
-      value: "The Sumarian Game(1964) \r\n\r\nThis is a simulation game where the
-        player controls one of three rulers and has to make decisions that allow
+      value: "<b>The Sumarian Game</b>(1964) \r\n\r\nThis is a simulation game where
+        the player controls one of three rulers and has to make decisions that allow
         for their economy to grow and thrive. "
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
@@ -12248,122 +12249,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 704623355}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1259466107
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 743139550}
-    m_Modifications:
-    - target: {fileID: 982171303077761414, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_SpriteTilingProperty.border.z
-      value: 1.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 982171303077761414, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: GameText
-      value: "The Civil War (1961) \r\n\r\nStrategy game based on the American Civil
-        War of 1861 \u2013 1865, Was the first commercially successful war simulation
-        games. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: FightTitle
-      value: Veteran
-      objectReference: {fileID: 0}
-    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: FightSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: ce0b4a6fe24422845bc55db57d5c7a64, type: 3}
-    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: ShadowSize.x
-      value: 82.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: ShadowSize.y
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: SpriteSize.x
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: ShadowPosition.x
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: ShadowPosition.y
-      value: -60.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: SpritePosition.y
-      value: -18.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4422731681082889775, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: ce0b4a6fe24422845bc55db57d5c7a64, type: 3}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -57.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7628917040015614952, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_Name
-      value: Soldier
-      objectReference: {fileID: 0}
-    - target: {fileID: 7628917040015614952, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
---- !u!4 &1259466108 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
-  m_PrefabInstance: {fileID: 1259466107}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1319656170
 GameObject:
   m_ObjectHideFlags: 0
@@ -13225,6 +13110,122 @@ Transform:
   m_Children: []
   m_Father: {fileID: 704623355}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1470432343
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 743139550}
+    m_Modifications:
+    - target: {fileID: 982171303077761414, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 982171303077761414, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: GameText
+      value: "<b>The Civil War</b> (1961) \r\n\r\nStrategy game based on the American
+        Civil War of 1861 \u2013 1865, Was the first commercially successful war
+        simulation games. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: FightTitle
+      value: Veteran
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: FightSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 79ae42e32ea0d0e4fafb8213b22bf232, type: 3}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowSize.x
+      value: 82.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowSize.y
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: SpriteSize.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: ShadowPosition.y
+      value: -60.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: SpritePosition.y
+      value: -18.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422731681082889775, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 79ae42e32ea0d0e4fafb8213b22bf232, type: 3}
+    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -57.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7628917040015614952, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_Name
+      value: Veteran
+      objectReference: {fileID: 0}
+    - target: {fileID: 7628917040015614952, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+--- !u!4 &1470432344 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4677499654222507821, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
+  m_PrefabInstance: {fileID: 1470432343}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1471219016
 GameObject:
   m_ObjectHideFlags: 0
@@ -13332,8 +13333,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: GameText
-      value: "Stalingrad (1963) \r\n\r\nTurn based game focused on capturing land
-        from your competition. "
+      value: "<b>Stalingrad</b> (1963) \r\n\r\nTurn based game focused on capturing
+        land from your competition. "
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: FightTitle
@@ -19210,7 +19211,7 @@ Tilemap:
       - {fileID: 1433878784, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -626666940, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1753349681, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -79, y: -4, z: 0}
@@ -19270,7 +19271,7 @@ Tilemap:
       - {fileID: 1433878784, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -626666940, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1753349681, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -75, y: -4, z: 0}
@@ -19315,7 +19316,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -72, y: -4, z: 0}
@@ -19420,7 +19421,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -65, y: -4, z: 0}
@@ -19540,7 +19541,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -57, y: -4, z: 0}
@@ -19555,7 +19556,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -56, y: -4, z: 0}
@@ -19570,7 +19571,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -55, y: -4, z: 0}
@@ -19645,7 +19646,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -50, y: -4, z: 0}
@@ -19780,7 +19781,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -41, y: -4, z: 0}
@@ -19855,7 +19856,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -36, y: -4, z: 0}
@@ -20095,7 +20096,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -20, y: -4, z: 0}
@@ -20155,7 +20156,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -16, y: -4, z: 0}
@@ -20290,7 +20291,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -7, y: -4, z: 0}
@@ -20425,7 +20426,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 2, y: -4, z: 0}
@@ -20440,7 +20441,7 @@ Tilemap:
       - {fileID: 1389076517, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: 1091319057, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1794393188, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 3, y: -4, z: 0}
@@ -20575,7 +20576,7 @@ Tilemap:
       - {fileID: 6147192446458071013, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -3461395152114158010, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1473393217, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 12, y: -4, z: 0}
@@ -20650,7 +20651,7 @@ Tilemap:
       - {fileID: 6147192446458071013, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -3461395152114158010, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1473393217, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 17, y: -4, z: 0}
@@ -20695,7 +20696,7 @@ Tilemap:
       - {fileID: 6147192446458071013, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -3461395152114158010, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1473393217, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6.0000005
+      m_AnimationSpeed: 6
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 20, y: -4, z: 0}
@@ -20710,7 +20711,7 @@ Tilemap:
       - {fileID: 6147192446458071013, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -3461395152114158010, guid: de92553248581fa4296bead3d69908e9, type: 3}
       - {fileID: -1473393217, guid: de92553248581fa4296bead3d69908e9, type: 3}
-      m_AnimationSpeed: 6
+      m_AnimationSpeed: 6.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -22193,9 +22194,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: GameText
-      value: "Dune (1979) \r\n\r\n2-6 player strategy game based off of a novel by
-        Frank Herbert. The game focuses on trying to rule the planet using different
-        faction abilities, resources, and negotiations. "
+      value: "<b>Dune </b>(1979) \r\n\r\n2-6 player strategy game based off of a
+        novel by <b>Frank Herbert</b>. The game focuses on trying to rule the planet
+        using different faction abilities, resources, and negotiations. "
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: FightTitle
@@ -22678,8 +22679,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: GameText
-      value: "High Noon (1970) \r\n\r\nThis is a text-based game that simulates an
-        old western gun fight. "
+      value: "<b>High Noon</b> (1970) \r\n\r\nThis is a text-based game that simulates
+        an old western gun fight. "
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: FightTitle
@@ -22956,9 +22957,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: GameText
-      value: "Star Trek(1971) \r\n\r\nText based game where the player is the captain
-        of the Enterprise and must destroy a se number of enemy ships within a set
-        time. "
+      value: "<b>Star Trek</b> (1971) \r\n\r\nText based game where the player is
+        the captain of the <b>USS Enterprise</b> and must destroy a set number of
+        enemy ships within a set time. "
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: FightTitle
@@ -23184,7 +23185,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 982171303077761414, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_SpriteTilingProperty.border.z
-      value: 1.25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 982171303077761414, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -23192,8 +23193,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: GameText
-      value: "Breakthru (1965) \r\n\r\nTurn based tactical board game where a Gold
-        Fleet with a flagship attempts to escape a blockade set by a Silver Fleet.  "
+      value: "<b>Breakthru</b> (1965) \r\n\r\nTurn based tactical board game where
+        a Gold Fleet with a flagship attempts to escape a blockade set by a Silver
+        Fleet.  "
       objectReference: {fileID: 0}
     - target: {fileID: 1497534752906518004, guid: b3ad3ffe5d9ec684084b142d99857b31, type: 3}
       propertyPath: FightTitle
@@ -45011,7 +45013,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 200}
+  m_SizeDelta: {x: 100, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2016251668
 MonoBehaviour:
@@ -45033,7 +45035,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ebca537c28cbb76499e80a76a4ab140c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9e5a039cba99afd48b5c38fe1eae36f3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

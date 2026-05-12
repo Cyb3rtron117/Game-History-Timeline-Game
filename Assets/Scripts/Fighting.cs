@@ -82,7 +82,7 @@ public class Fighting : MonoBehaviour
         EnemyImageObject.GetComponent<Image>().sprite = enemyImage;
         CurrentEnemy = enemy;
 
-
+        SceneTracker.DefeatedEnemies.Add(enemyTitle);
 
         EnemyDialogue1.text = $"{enemyTitle} attacks with Basic";
         EnemyDialogue2.text = $"{enemyTitle} attacks with Advanced";

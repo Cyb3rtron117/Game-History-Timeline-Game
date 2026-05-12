@@ -65,7 +65,7 @@ public class SoundManager : MonoBehaviour
     }
     public void playFightMusic()
     {
-        BackgroundMusic.Stop();
+        BackgroundMusic.Pause();
         FightMusic.volume = 0.1f;
         FightMusic.Play();
     }
@@ -73,7 +73,7 @@ public class SoundManager : MonoBehaviour
     {
         FightMusic.Stop();
         BackgroundMusic.volume = 0.1f;
-        BackgroundMusic.Play();
+        BackgroundMusic.UnPause();
     }
     public void playVictory()
     {

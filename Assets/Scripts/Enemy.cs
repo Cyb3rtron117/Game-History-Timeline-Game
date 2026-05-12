@@ -23,6 +23,10 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         fightingScript = GameObject.FindGameObjectWithTag("FightController").GetComponent<Fighting>();
+        if(SceneTracker.DefeatedEnemies.Contains(FightTitle))
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     // Update is called once per frame

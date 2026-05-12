@@ -4,7 +4,6 @@ public class SceneComplete : MonoBehaviour
 {
     [SerializeField] private GameObject _sceneTracker;
     public currentLevel thisLevel;
-    public GameObject EnemiesParent;
     public GameObject Player;
 
     [Header("Player Pos")]
@@ -23,7 +22,6 @@ public class SceneComplete : MonoBehaviour
             case currentLevel.Winter:
                 if(SceneTracker.WinterComplete)
                 {
-                    EnemiesParent.SetActive(false);
                     if (SceneTracker.travelDirection == TravelDirection.Left)
                     {
                         Player.transform.position = winterAltPos;
@@ -38,7 +36,6 @@ public class SceneComplete : MonoBehaviour
             case currentLevel.Spring:
                 if (SceneTracker.SpringComplete)
                 {
-                    EnemiesParent.SetActive(false);
                     if (SceneTracker.travelDirection == TravelDirection.Left)
                     {
                         Player.transform.position = springAltPos;
@@ -49,7 +46,6 @@ public class SceneComplete : MonoBehaviour
             case currentLevel.Summer:
                 if (SceneTracker.SummerComplete)
                 {
-                    EnemiesParent.SetActive(false);
                     if (SceneTracker.travelDirection == TravelDirection.Left)
                     {
                         Player.transform.position = summerAltPos;
@@ -60,7 +56,6 @@ public class SceneComplete : MonoBehaviour
             case currentLevel.Autumn:
                 if (SceneTracker.AutumnComplete)
                 {
-                    EnemiesParent.SetActive(false);
                     if (SceneTracker.travelDirection == TravelDirection.Left)
                     {
                         Player.transform.position = autumnAltPos;

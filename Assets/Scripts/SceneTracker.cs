@@ -11,6 +11,10 @@ public class SceneTracker : MonoBehaviour
     public static bool AutumnComplete = false;
 
     public static TravelDirection travelDirection;
+
+    public static List<string> DefeatedEnemies = new List<string>();
+
+    public List<string> _defeatedEnemies = new List<string>();
     void Awake()
     {
         // Prevents this GameObject from being destroyed when a new scene loads
@@ -34,7 +38,7 @@ public class SceneTracker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        _defeatedEnemies = DefeatedEnemies;
     }
 
     public void WhichScene(currentLevel level)

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BackgroundMusic : MonoBehaviour
 {
@@ -18,5 +19,20 @@ public class BackgroundMusic : MonoBehaviour
     public void UnPause()
     {
         Music.UnPause();
+    }
+
+    private void FixedUpdate()
+    {
+        if(Music.isPlaying && SceneManager.GetActiveScene().name == "Main Menu")
+        {
+            Music.Stop();
+        }
+        else
+        {
+            if(!Music.isPlaying)
+            {
+                Music.Play();
+            }
+        }
     }
 }

@@ -17,13 +17,18 @@ public class SoundManager : MonoBehaviour
     
     public AudioSource VectoryMusic;
 
+    private GameObject _BackgroundMusicObj;
     public BackgroundMusic _BackgroundMusic;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        _BackgroundMusic = GameObject.FindGameObjectWithTag("SceneTracker").GetComponent<BackgroundMusic>();
+        _BackgroundMusicObj = GameObject.FindGameObjectWithTag("SceneTracker");
+        if(_BackgroundMusicObj != null)
+        {
+            _BackgroundMusic = _BackgroundMusicObj.GetComponent<BackgroundMusic>();
+        }
     }
 
     // Update is called once per frame

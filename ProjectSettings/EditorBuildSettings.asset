@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Autumn.unity
     guid: 5e8f222d3cfe96c41ae82722375cb931
+  - enabled: 0
+    path: Assets/Scenes/Poster.unity
+    guid: 13b1062a265c55c45bb6e8b56c37f0cb
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: e01b872b9224f1a4dbfe40541e282f8e, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

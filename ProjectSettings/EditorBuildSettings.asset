@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Poster.unity
     guid: 13b1062a265c55c45bb6e8b56c37f0cb
+  - enabled: 0
+    path: Assets/Scenes/Poster 2.unity
+    guid: 284c6a80b3bccf8479a1f64021b02af2
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: e01b872b9224f1a4dbfe40541e282f8e, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
